@@ -89,6 +89,6 @@ for i, op in enumerate(operations):
 axes[7].axis('off')
 
 plt.tight_layout()
-plt.savefig('q1_plot.png', dpi=300)
-print("Plot successfully generated and saved as 'q1_plot.png'.")
+plt.savefig('q1_plot_results.png', dpi=300)
+print("Plot successfully generated and saved as 'q1_plot_results.png'.")
 plt.show()
