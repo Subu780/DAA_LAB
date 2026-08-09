@@ -12,6 +12,7 @@ Question_3/
 ├── q3_merge_plot.png
 ├── q3_plt.py
 ├── q3.c
+├── README.md
 └── results.csv
 ```
 

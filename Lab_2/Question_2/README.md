@@ -12,6 +12,7 @@ Question_2/
 ├── merge_sort_plot.png
 ├── q2_plot.py
 ├── q2.c
+├── README.md
 └── results.csv
 ```
 

@@ -12,6 +12,7 @@ Question_1/
 ├── q1_plot_results.png
 ├── q1_plot.py
 ├── q1.c
+├── README.md
 └── results.csv
 ```
 
