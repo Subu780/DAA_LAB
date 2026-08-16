@@ -50,10 +50,16 @@ The maximum number of recursive steps (depth) depends on the base of the logarit
 * **Ternary Search Depth:** $\log_3 n$
 
 To compare them, we can convert the base of the Ternary Search logarithm to base 2:
-$$ \log_3 n = \frac{\log_2 n}{\log_2 3} $$
+
+$$
+\log_3 n = \frac{\log_2 n}{\log_2 3}
+$$
 
 Since $\log_2 3 \approx 1.585$ (which is roughly 1.6), we can rewrite this as:
-$$ \log_2 n \approx 1.585 \times \log_3 n $$
+
+$$
+\log_2 n \approx 1.585 \times \log_3 n
+$$
 
 This means **Binary Search takes about 1.6 times more steps/splits than Ternary Search**. 
 
@@ -67,7 +73,10 @@ Looking at the provided C code logic:
   Total worst-case comparisons = $2 \times \log_3 n$
 
 Substitute the logarithm base from our earlier proof into the Ternary Search comparisons:
-$$ 2 \times \log_3 n = 2 \times \left( \frac{\log_2 n}{1.585} \right) \approx 1.26 \times \log_2 n $$
+
+$$
+2 \times \log_3 n = 2 \times \left( \frac{\log_2 n}{1.585} \right) \approx 1.26 \times \log_2 n
+$$
 
 **Conclusion:** Even though Ternary Search has fewer splits, doing two comparisons per split results in approximately **26% more comparisons** overall in the worst case ($1.26 \times \log_2 n$ compared to $1.0 \times \log_2 n$). This makes Binary Search mathematically more efficient.
 
